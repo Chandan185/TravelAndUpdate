@@ -2,7 +2,7 @@ const HttpError = require("../models/http-error");
 const mapboxClient = require("@mapbox/mapbox-sdk/services/geocoding");
 const geocodingClient = mapboxClient({
   accessToken:
-    "pk.eyJ1IjoiY2hhbmRhbjczNiIsImEiOiJjbGhqNGNjMjcwODY1M2xveDhtMHJlbGI5In0.2opk31JUxiuBUbz4CN_Sgw",
+    process.env.MAP_API,
 });
 
 async function getCoordinates(address) {
