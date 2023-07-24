@@ -1,0 +1,11 @@
+{
+  "env":{
+    "DB_USER":"Chandan736",
+    "DB_PASSWORD":"K0AAHRrxxnAlRQdq",
+    "DB_NAME":"myclicks",
+    "JWT_KEY":"supersecret_do_not_share",
+    "CLOUDINARY_CLOUD_NAME":"djtg6roj7",
+    "CLOUDINARY_API_KEY":"721597486127156",
+    "CLOUDINARY_API_SECRET":"sB3acG2jjLJamtqLjc6sUaQC4KU"
+  }
+}
