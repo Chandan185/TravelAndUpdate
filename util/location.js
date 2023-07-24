@@ -1,10 +1,10 @@
-<<<<<<< HEAD
-const HttpError = require("../models/http-error");
-const mapboxClient = require("@mapbox/mapbox-sdk/services/geocoding");
-const geocodingClient = mapboxClient({
-  accessToken:
-    "pk.eyJ1IjoiY2hhbmRhbjczNiIsImEiOiJjbGhqNGNjMjcwODY1M2xveDhtMHJlbGI5In0.2opk31JUxiuBUbz4CN_Sgw",
-=======
+// const HttpError = require("../models/http-error");
+// const mapboxClient = require("@mapbox/mapbox-sdk/services/geocoding");
+// const geocodingClient = mapboxClient({
+//   accessToken:
+//     "pk.eyJ1IjoiY2hhbmRhbjczNiIsImEiOiJjbGhqNGNjMjcwODY1M2xveDhtMHJlbGI5In0.2opk31JUxiuBUbz4CN_Sgw",
+// });
+
 // const getCoordForAddress = () => {
 //   return {
 //     lat: 40.7484474,
@@ -39,7 +39,7 @@ const HttpError = require("../models/http-error");
 const mapboxClient = require("@mapbox/mapbox-sdk/services/geocoding");
 const geocodingClient = mapboxClient({
   accessToken:process.env.MAP_API,
->>>>>>> f26f9ea15736c6acce14e360f342bd1f036d1b5c
+f26f9ea15736c6acce14e360f342bd1f036d1b5c
 });
 
 async function getCoordinates(address) {
